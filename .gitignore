@@ -1,0 +1,78 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# DVC-managed dataset/model files
+# Keep the corresponding .dvc files in Git
+# =========================
+dataset/ai4i2020.csv
+model/machine_failure_model.pkl
+model/label_encoders.pkl
+model/feature_names.pkl
+
+# =========================
+# Node / Frontend
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.svelte-kit/
+frontend/.next/
+frontend/build/
+
+# =========================
+# MLflow generated/local data
+# =========================
+mlflow/mlflow.db
+mlflow/mlruns/
+mlruns/
+mlartifacts/
+mlflow_artifacts/
+mlflow_runtime.db
+mlflow_test.db
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+desktop.ini
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build/cache
+# =========================
+.vite/
+dist/
+build/
+# DVC local cache and temporary files
+.dvc/cache/
+.dvc/tmp/

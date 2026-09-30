@@ -1,0 +1,5 @@
+outs:
+- md5: 9b4f0006e902b62ae945297dcc4fdadf
+  size: 3215081
+  hash: md5
+  path: machine_failure_model.pkl
